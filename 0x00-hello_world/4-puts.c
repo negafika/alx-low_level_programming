@@ -1,16 +1,8 @@
 #include <stdio.h>
 
-/*
- * This code prints 
- * out some message 
- * using puts
- */
+/*comment*/
 
 int main(void)
-	{
-
-		puts("\"Programming is like building a multilingual puzzle");
-
-			return (0);
-
-	}		
+{puts("\"Programming is like building a multilingual puzzle");
+return (0);
+}
