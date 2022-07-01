@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-/*This code prints 
+/*
+ * This code prints 
  * out some message 
- * using puts*/
+ * using puts
+ */
 
 int main(void)
 	{
