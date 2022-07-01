@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/*comment*/
+/**
+ * main - this is the documentation
+ *
+ * Return: a zero value
+ */
 
 int main(void)
 {puts("\"Programming is like building a multilingual puzzle");
