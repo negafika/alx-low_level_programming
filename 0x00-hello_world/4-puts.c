@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*This code prints 
+ * out some message 
+ * using puts*/
+
 int main(void)
 	{
 
