@@ -13,7 +13,7 @@ int main(void)
 	for (x = 0 + 48; x <= 9 + 48; x++)
 	{
 		putchar(x);
-		if (x != 9)
+		if (x != 57)
 		{
 			putchar(44);
 			putchar(32);
