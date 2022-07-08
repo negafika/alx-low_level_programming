@@ -3,9 +3,9 @@
 
 /**
  * _isupper - check the case of the character.
- * main - prints the output.
+ * @c: character to check.
  *
- * Return: Always 0.
+ * Return: gives 0 or 1.
  */
 _isupper(letter)
 {
