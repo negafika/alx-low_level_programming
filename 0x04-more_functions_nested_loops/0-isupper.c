@@ -7,13 +7,13 @@
  *
  * Return: gives 0 or 1.
  */
-_isupper(letter)
+int _isupper(int c)
 {
-	if(letter/97 == 0)
+	if (c/97 == 0)
 	{
 		return(1);
 	}
-	else if(letter/97 == 1)
+	else if (c/97 == 1)
 	{
 		return(0);
 	}
