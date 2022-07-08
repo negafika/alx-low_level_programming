@@ -1,20 +1,19 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _isupper - check the case of the character.
- * @c: character to check.
+ * _isupper - checks if uppercase
+ * @c: character to check
  *
- * Return: gives 0 or 1.
+ * Return: gives 1 or 0
  */
 int _isupper(int c)
 {
-	if (c/97 == 0)
+	if (c >= 'A' && c <= 'Z')
 	{
-		return(1);
+		return (1);
 	}
-	else if (c/97 == 1)
+	else
 	{
-		return(0);
+		return (0);
 	}
 }
