@@ -16,13 +16,15 @@ len = 0;
 while (*(str + len) != '\0')
 	len++;
 i = 0;
-for (i = (len / 2) ; i < len ; i++)
+if (len % 2 == 0)
 {
-if (len % 2 == 0)
+for (i = len / 2 ; i < len ; i++)	
 	_putchar(*(str + i));
-else
-	_putchar(*(str + i + 1));
 }
-if (len % 2 == 0)
-	_putchar('\n');
+else
+{
+for (i = (len / 2) + 1 ; i < len ; i++)
+	_putchar(*(str + i));
+}
+_putchar('\n');
 }
