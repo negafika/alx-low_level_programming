@@ -23,5 +23,6 @@ if (len % 2 == 0)
 else
 	_putchar(*(str + i + 1));
 }
-_putchar('\n');
+if (len % 2 == 0)
+	_putchar('\n');
 }
