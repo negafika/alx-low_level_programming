@@ -18,7 +18,7 @@ while (*(str + len) != '\0')
 i = 0;
 for (i = (len / 2) ; i < len ; i++)
 {
-if (len % 2 == 0)	
+if (len % 2 == 0)
 	_putchar(*(str + i));
 else
 	_putchar(*(str + i + 1));
