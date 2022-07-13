@@ -2,22 +2,23 @@
 #include <stdio.h>
 
 /**
- * _strcat - performs concatenation
+ * _strncat - performs concatenation
  * @dest: the destination string
  * @src: the source one
+ * @n: to where it goes
  *
  * Return: char
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-int i;
 int len_dest;
+int i;
 
-i = 0;
 len_dest = 0;
+i = 0;
 while (*(dest + len_dest) != '\0')
 	len_dest++;
-while (*(src + i) != '\0')
+while (i < n)
 {
 	*(dest + len_dest + i) = *(src + i);
 	i++;
