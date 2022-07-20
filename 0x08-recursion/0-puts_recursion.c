@@ -17,6 +17,6 @@ if (s[i] == '\0')
 _putchar(10);
 return;
 }
-_puts_recursion(s[i]);
+_puts_recursion(&s[i]);
 i++;
 }
