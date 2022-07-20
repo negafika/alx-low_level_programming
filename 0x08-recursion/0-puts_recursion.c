@@ -14,7 +14,7 @@ int i;
 i = 0;
 if (s[i] == '\0')
 {
-_putchar("\n");
+_putchar(\n);
 return;
 }
 _putchar(s[i]);
