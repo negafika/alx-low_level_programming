@@ -14,7 +14,7 @@ int i;
 i = 0;
 if (s[i] == '\0')
 {
-_putchari(10);
+_putchar(10);
 return;
 }
 _putchar(s[i]);
